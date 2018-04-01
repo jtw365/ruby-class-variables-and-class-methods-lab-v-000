@@ -15,6 +15,8 @@ class Song
     @@genres << genre
 
     @@genre_count << genre
+    if @@genre_count[genre] == nil
+    
       #binding.pry
   end
 
