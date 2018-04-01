@@ -20,7 +20,7 @@ class Song
   end
 
   def self.artists
-    binding.pry
+    @@artists.uniq
   end
 
 end
