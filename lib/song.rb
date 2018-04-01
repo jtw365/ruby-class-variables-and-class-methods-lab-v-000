@@ -9,7 +9,7 @@ class Song
     @artist = artist
     @genre = genre
     @@count += 1
-    if artists.include?(artist) == false
+    if artist.include?(artist) == false
       @@artists << artist
       binding.pry
     end
