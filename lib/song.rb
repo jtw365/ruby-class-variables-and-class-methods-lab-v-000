@@ -16,10 +16,11 @@ class Song
     @@count += 1
 
     @@artists << artist
-    if @@artist_count[artist]
+    if @@artist_count[artist] == nil
+
 
     @@genres << genre
-    if @@genre_count[genre] == nil {}
+    if @@genre_count[genre] == nil
       @@genre_count[genre] = 1 {genre => 1 }
     else
       @@genre_count[genre] += 1
