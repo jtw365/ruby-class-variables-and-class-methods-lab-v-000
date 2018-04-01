@@ -14,7 +14,7 @@ class Song
     @@artists << artist
     @@genres << genre
 
-    @@genre_count << @@genres
+    @@genre_count << genre
       #binding.pry
   end
 
@@ -30,6 +30,6 @@ class Song
     @@genres.uniq
   end
 
-  
+
 
 end
