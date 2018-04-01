@@ -17,6 +17,7 @@ class Song
 
     @@artists << artist
     if @@artist_count[artist] == nil
+      @@artist_count[artist] = 1
 
 
     @@genres << genre
