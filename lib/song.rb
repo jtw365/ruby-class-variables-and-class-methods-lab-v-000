@@ -6,7 +6,6 @@ class Song
   @@genres = []
   @@genre_count = {}
 
-  genres = [rap, hip hop, pop]
 
   def initialize(name, artist, genre)
     @name = name
@@ -19,7 +18,7 @@ class Song
     if @@genre_count[genre] == nil {}
       @@genre_count[genre] = 1 {genre => 1 }
     else
-      @@genre_count[genre] += 1 
+      @@genre_count[genre] += 1
     end
 
       #binding.pry
