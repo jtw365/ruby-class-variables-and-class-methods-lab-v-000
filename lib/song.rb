@@ -20,6 +20,6 @@ class Song
   end
 
   def self.artists
-    if @@artists.include?(artist)
+    if @@artists.include?(artist) == false
 
 end
